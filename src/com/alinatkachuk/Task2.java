@@ -22,7 +22,7 @@ public class Task2 {
 		
 		String format = null;
 		
-		for (int i = 0; i<=listForAllFiles.size(); i++) {
+		for (int i = 0; i<listForAllFiles.size(); i++) {
 			while (!listForAllFiles.get(i).exists()) { 
 				try {
 					listForAllFiles.get(i).createNewFile();
